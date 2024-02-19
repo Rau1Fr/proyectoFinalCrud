@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 
 public class ConexionDB {
     private static Connection conexion;
-    private static String user = "tu_usuario";
-    private static String pass = "tu_password";
+    private static String user = "usuary";
+    private static String pass = "pass";
     private static String db = "empleados";
     private static int port = 3306;
     private static String url = "jdbc:mysql://localhost:" + port + "/" + db;
